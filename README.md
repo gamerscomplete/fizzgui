@@ -32,7 +32,7 @@ Differences
 -----------
 
 * Windows were replaced on Containers, containers can not be moved and do not have a title, scrollbars(current) are not available too.
-* Containers may create various widgets, widgets are placed one by one, if there is no enough space in row, widget moves to the new row(in html it looks like a *float*).
+* Containers may create various widgets, widgets are placed one by one, if there is not enough space in the row, widget is moved to the next row(in html it looks like a *float*).
 * Widget may have a fixed position
 * Smart layout system for positioning of containers and widgets 
 * Some widgets may have callbacks(signals) calling on appropriated events(ex: press button)
@@ -61,7 +61,7 @@ The following need to be addressed in order to start releases:
     * multi-line text editors
     * combobox
 * editbox cursor doesn't start where mouse was clicked
-* and more other
+* and many others
 
 
 LICENSE
